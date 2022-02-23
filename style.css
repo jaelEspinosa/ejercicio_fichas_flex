@@ -1,0 +1,149 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+
+
+/* Global */
+p{
+  text-align: justify;
+  padding:15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+body {
+  background-color: #abd1c6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1a5351;
+  font-style: italic;
+}
+
+a,
+span {
+  color: #e16162;
+}
+
+a:hover {
+  color: red;
+  text-transform: uppercase;
+  
+}
+article {
+  box-shadow: 10px 10px 18px gray;
+  margin: 14px;
+  width: 450px;
+  height: 450px;
+}
+
+article {
+  background-color: #eaddcf;
+  border: #020826 solid 3px;
+  border-radius: 10px;
+}
+
+/* styles */
+
+.lupa {
+  width: 50px;
+}
+.logo {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 18px rgb(11, 39, 38);
+}
+
+.menu {
+  background-color: #0f3433;
+  display: flex;
+  font-size: 125%;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+.fifa-presentation{
+    display:flex;
+    flex-direction: column;
+    background-image: url(./assets/img/fondo-fifa2.png);
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height:85vh;
+}
+.fifa-presentation h1{
+  font-size: 7vw;
+}
+.fifa-titulo{
+  display:flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding:20px;
+  gap:10px;  
+  box-shadow: 10px 10px 18px gray;
+  width: 50vw;
+  height: 40vh;
+  background-color: rgb(53, 54, 54);
+  color:#e16162;
+}
+.foto-mediana{
+  width: 400px;
+  border-radius: 10px;
+  }
+.img-fichas{
+  border-radius: 10px;
+  border: #0f3433 1px solid;
+  box-shadow: 10px 10px 18px gray;
+}
+
+.contenedor-fichas{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 45px;
+  
+}
+.fichas{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.titulo-galeria{
+  text-align: center;
+  padding: 15px;
+}
+.footer{
+  border-top:1px solid #0f3433;
+  box-shadow: -10px -15px 18px #0f3433;
+  margin-top: 25px;
+  padding-top:25px;
+  padding-left:25px;
+  height: 150px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #abd1c6;
+  
+}
